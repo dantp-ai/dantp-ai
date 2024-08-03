@@ -4,7 +4,6 @@ My name is Daniel. I graduated with a Bachelor’s and Master’s degree in Comp
 
 - 🔭 I’m currently contributing to the tianshou RL framework.
 - 👯 I’m always looking to collaborate on AI and RL projects that are in line with my tenets below.
-- 📫 How to reach me: tihashi 'at' proton 'dot' me
 
 ### About me
 
