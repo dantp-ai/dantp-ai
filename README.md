@@ -6,8 +6,10 @@ My interests are broadly in:
 
   * Reinforcement Learning
   * Continual Deep Learning
+  * Online Learning
   * AI Infra & Tooling
   * Software Engineering for AI
+  * Hardware for Online Learning 
 
 ---
 
