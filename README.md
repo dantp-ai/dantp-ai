@@ -4,12 +4,10 @@ My name is Daniel. I am an AI Research Software Engineer.
 
 My interests are broadly in:
 
-  * Reinforcement Learning
-  * Continual Deep Learning
+  * Continual Learning
   * Online Learning
   * AI Infra & Tooling
   * Software Engineering for AI
-  * Hardware for Online Learning 
 
 ---
 
