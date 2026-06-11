@@ -7,6 +7,9 @@ Focused on continual & online learning, AI infrastructure, and building reliable
 
 ## Current Projects
 
+### Reinforcement Learning
+- 💪🏋️💧 [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
+
 ### Educational
 
 - 📉 [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
