@@ -10,6 +10,10 @@ Focused on continual & online learning, AI infrastructure, and building reliable
 ### Reinforcement Learning
 - 💪🏋️💧 [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
 
+### Tooling
+
+- 🧪⚙️🔁 [AlphaEx](https://github.com/dantp-ai/AlphaEx): A Python Toolkit for Managing Large Number of Experiments on Slurm Workload Manager
+
 ### Educational
 
 - 📉 [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
