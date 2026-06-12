@@ -1,8 +1,10 @@
 # Howdy, I'm Daniel 👋.
 
-I am a Senior ML Software Engineer.
+I am a Senior Machine Learning Software Engineer.
 
-Focused on continual & online learning, AI infrastructure, and building reliable software for AI systems.
+Focused on reinforcement learning, AI infrastructure, and building reliable and scalable software for AI systems.
+
+[![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#) [![Google Assistant](https://img.shields.io/badge/Google%20Assistant-4285F4?logo=googleassistant&logoColor=fff)](#) [![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor)](#) [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![JAX](https://custom-icon-badges.demolab.com/badge/JAX-222827?logo=jax&logoColor=ffffff)](#) [![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](#) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
 
 ## Current Projects
@@ -23,6 +25,7 @@ Focused on continual & online learning, AI infrastructure, and building reliable
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/dantp-ai)
 
----
+## Latest Blog Posts
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=dantp-ai&margin-w=15)](https://github.com/dantp-ai)
+- [Review on the Technical Report: Gemini Robotics 1.5](https://therewardsignal.substack.com/p/review-of-the-technical-report-on-gemini-robotics-1-5)
+
