@@ -12,7 +12,7 @@ Focused on continual & online learning, AI infrastructure, and building reliable
 
 ### Tooling
 
-- 🧪⚙️🔁 [AlphaEx](https://github.com/dantp-ai/AlphaEx): A Python Toolkit for Managing Large Number of Experiments on Slurm Workload Manager
+- 🧪⚙️🔁 [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script
 
 ### Educational
 
