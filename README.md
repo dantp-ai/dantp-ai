@@ -10,16 +10,17 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 ## Current Projects
 
 ### Reinforcement Learning
-- 💪🏋️💧 [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
+- [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
 
 ### Tooling
 
-- 🧪⚙️🔁 [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script
+- [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script
 
 ### Educational
 
-- 🚀⚡️ _Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass; same output, way fewer passes._
-- 📉 [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
+- [internals](https://dantp-ai.github.io/internals/): Interactive, first-principles tutorials for modern AI systems & system components.
+  - _Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass; same output, way fewer passes._
+- [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
 
 
 ## GitHub Activity
