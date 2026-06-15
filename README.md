@@ -7,10 +7,12 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 [![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#) [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#) [![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor)](#) [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](#) [![JAX](https://custom-icon-badges.demolab.com/badge/JAX-222827?logo=jax&logoColor=ffffff)](#) [![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](#)
 
 
-## Current Projects
+## Projects
 
-### Reinforcement Learning
+### Reinforcement Learning & Robotics
 - [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
+- [proprio](https://github.com/dantp-ai/proprio): Unsupervised, uncertainty-aware perception for a 7-DOF robot arm; classifies each lidar reading as self, background, or anomaly, without any geometry or kinematics.
+
 
 ### Tooling
 
