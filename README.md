@@ -25,9 +25,8 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 - [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
 - [priori](https://github.com/dantp-ai/priori): [Interactive](https://dantp-ai.github.io/priori/) marimo benchmark of TabPFN v2 — a tabular foundation model that predicts in-context, with no training — against tuned XGBoost & AutoGluon on churn and credit tables.
 - [minitorch](https://github.com/dantp-ai/minitorch): Deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
-- [kairos](https://github.com/dantp-ai/kairos): Reinforcement learning when the environment won't wait: A PPO agent with a bounded compute budget must act *and* learn in real-time,
-  acting on a stale policy while each update computes and discarding the experience it's too busy to process. Measures how computational power should be spent: more epochs, or more
-  fresh data.
+- [kairos](https://github.com/dantp-ai/kairos): Reinforcement learning when the environment won't wait: a bounded-compute PPO agent acts on a stale policy while each update computes, dropping the experience it's too busy to process — testing whether extra compute is better spent on more epochs or more fresh data.
+
 
 
 
