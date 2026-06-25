@@ -16,15 +16,15 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 
 ### Tooling
 
-- [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script
+- [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script.
 
 ### Educational
 
 - [internals](https://dantp-ai.github.io/internals/): Interactive, first-principles tutorials for modern AI systems & system components.
-  - _Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass; same output, way fewer passes._
+  - _Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass._
 - [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
 - [priori](https://github.com/dantp-ai/priori): [Interactive](https://dantp-ai.github.io/priori/) marimo benchmark of TabPFN v2 — a tabular foundation model that predicts in-context, with no training — against tuned XGBoost & AutoGluon on churn and credit tables.
-- [minitorch](https://github.com/dantp-ai/minitorch): Deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
+- [minitorch](https://github.com/dantp-ai/minitorch): Minimalistic deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
 - [kairos](https://github.com/dantp-ai/kairos): Reinforcement learning when the environment won't wait: a bounded-compute PPO agent acts on a stale policy while each update computes, dropping the experience it's too busy to process — testing whether extra compute is better spent on more epochs or more fresh data.
 
 
