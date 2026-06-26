@@ -13,6 +13,9 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 - [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
 - [proprio](https://github.com/dantp-ai/proprio): Unsupervised, uncertainty-aware perception for a 7-DOF robot arm; classifies each lidar reading as self, background, or anomaly, without any geometry or kinematics.
 
+### Scientific ML
+
+- [orbscreen](https://github.com/dantp-ai/orbscreen): Deep-ensemble GNN surrogate that reproduces Orb-v3's relaxed-state MOF stability from the unrelaxed structure - beating a descriptor baseline (energy MAE halved, ~6–7x top-10% enrichment) with calibrated uncertainty, trained at scale on [Modal](https://modal.com/) over Orbital's [Orb-v3](https://huggingface.co/papers/2504.06231) + [MofasaDB](https://huggingface.co/datasets/Orbital-Materials/MofasaDB).
 
 ### Tooling
 
