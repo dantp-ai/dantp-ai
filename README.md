@@ -17,6 +17,10 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 
 - [orbscreen](https://github.com/dantp-ai/orbscreen): Deep-ensemble GNN surrogate that reproduces Orb-v3's relaxed-state MOF stability from the unrelaxed structure - beating a descriptor baseline (energy MAE halved, ~6–7x top-10% enrichment) with calibrated uncertainty, trained at scale on [Modal](https://modal.com/) over Orbital's [Orb-v3](https://huggingface.co/papers/2504.06231) + [MofasaDB](https://huggingface.co/datasets/Orbital-Materials/MofasaDB).
 
+### Applied AI
+
+- [betternao](https://github.com/dantp-ai/neurohackathon2026): Live EEG monitoring for elderly care: a clinical foundation model converts 30-second signal chunks into a wellness signal + labelable embedding map, shared between patient and care team, all in a React Neative app. Co-developed at the Eurohackathon 2026.
+
 ### Tooling
 
 - [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script.
