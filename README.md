@@ -34,6 +34,7 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 - [minitorch](https://github.com/dantp-ai/minitorch): Minimalistic deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
 - [kairos](https://github.com/dantp-ai/kairos): Reinforcement learning when the environment won't wait: a bounded-compute PPO agent acts on a stale policy while each update computes, dropping the experience it's too busy to process — testing whether extra compute is better spent on more epochs or more fresh data.
 - [map-reduce-distributed-grpc](https://github.com/dantp-ai/map-reduce-distributed-grpc): MapReduce (a distributed system) from scratch: a gRPC driver hands map & reduce tasks to a pool of workers counting words across files.
+- [cloze](https://github.com/dantp-ai/cloze): Learn a language from your own sentences: mask words, practice filling them in, each scheduled with SM-2 (spaced-repetition). Self-hosted, Next.js + Postgres.
 
 
 
