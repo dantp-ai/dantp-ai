@@ -28,7 +28,7 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 ### Educational
 
 - [internals](https://dantp-ai.github.io/internals/): Interactive, first-principles tutorials for modern AI systems & system components.
-  - _Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass._
+  - [Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass.](https://dantp-ai.github.io/internals/speculative-decoding/)
 - [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
 - [priori](https://github.com/dantp-ai/priori): [Interactive](https://dantp-ai.github.io/priori/) marimo benchmark of TabPFN v2 & Google TabFM — a tabular foundation model that predicts in-context, with no training — against tuned XGBoost & AutoGluon on churn and credit tables.
 - [minitorch](https://github.com/dantp-ai/minitorch): Minimalistic deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
