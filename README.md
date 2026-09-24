@@ -12,6 +12,7 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 ### Reinforcement Learning & Robotics
 - [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
 - [proprio](https://github.com/dantp-ai/proprio): Unsupervised, uncertainty-aware perception for a 7-DOF robot arm; classifies each lidar reading as self, background, or anomaly, without any geometry or kinematics.
+- [STOMP paper reimplementation](https://github.com/dantp-ai/reward-respecting-subtasks-jax): Implementation in Jax of STOMP paper
 
 ### Scientific ML
 
