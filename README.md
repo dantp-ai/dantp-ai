@@ -48,8 +48,6 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/dantp-ai)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=dantp-ai&column=7)](https://github.com/dantp-ai)
-
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=dantp-ai&show_icons=true&hide_border=true" /> | <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=dantp-ai&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=7EDDCF&fire=7EDDCF" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
