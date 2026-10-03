@@ -24,6 +24,7 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 
 ### Tooling
 
+- [medical-jiwer](https://github.com/dantp-ai/medical-jiwer): Medical speech-recognition evaluation built on JiWER, with medical-term WER, entity F1, and occurrence-aware scoring of doses, negation, and other critical clinical values.
 - [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script.
 
 ### Educational
