@@ -42,18 +42,3 @@ Focused on reinforcement learning, AI infrastructure, and building reliable and 
 ## Latest Blog Posts
 
 - [Review on the Technical Report: Gemini Robotics 1.5](https://therewardsignal.substack.com/p/review-of-the-technical-report-on-gemini-robotics-1-5)
-
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/dantp-ai" alt="GitHub Contribution Graph" />
-</p>
-
-| <img align="center" src="https://github-readme-stats.vercel.app/api?username=dantp-ai&show_icons=true&hide_border=true" /> | <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=dantp-ai&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=7EDDCF&fire=7EDDCF" /> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=dantp-ai&color=brightgreen&style=flat" alt="Profile views" />
-</p>
-
