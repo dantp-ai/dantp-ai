@@ -1,44 +1,61 @@
 # Howdy, I'm Daniel 👋.
 
-I am a Senior Machine Learning Software Engineer.
+I'm a Senior Machine Learning Software Engineer focused on reinforcement learning, ML systems, and research infrastructure.
 
-Focused on reinforcement learning, AI infrastructure, and building reliable and scalable software for AI systems.
+I enjoy turning research ideas into working systems: implementing algorithms from first principles, designing controlled experiments, and building reliable infrastructure for machine learning.
 
 [![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#) [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#) [![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor)](#) [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](#) [![JAX](https://custom-icon-badges.demolab.com/badge/JAX-222827?logo=jax&logoColor=ffffff)](#) [![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) [![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](#)
 
+## Featured Projects
 
-## Projects
+### Reinforcement Learning Research
+
+**[kairos](https://github.com/dantp-ai/kairos)** — *Learning under real-time compute constraints*
+
+Investigates reinforcement learning when the environment cannot wait for the learner. Implements bounded-compute PPO with stale policies and dropped experience, using controlled experiments to study the trade-off between additional optimization epochs and fresher training data.
+
+### Scientific Machine Learning
+
+**[orbscreen](https://github.com/dantp-ai/orbscreen)** — *Uncertainty-aware materials screening at scale*
+
+Deep-ensemble graph neural network surrogate for predicting Orb-v3 relaxed-state MOF stability from unrelaxed structures. Halves energy MAE relative to a descriptor baseline, achieves ~6–7× top-decile enrichment, and uses selective simulation to reduce screening costs by 5–6.6×. Built using [Modal](https://modal.com/), [Orb-v3](https://huggingface.co/papers/2504.06231), and [MofasaDB](https://huggingface.co/datasets/Orbital-Materials/MofasaDB).
+
+### ML Systems
+
+**[minitorch](https://github.com/dantp-ai/minitorch)** — *Deep learning framework from first principles*
+
+Implements automatic differentiation, multidimensional tensors, neural network operations, and computation backends using NumPy, parallel Numba CPU kernels, and CUDA. Explores the abstractions and performance trade-offs underlying modern deep learning frameworks.
+
+### Research Infrastructure
+
+**[AlphaEx](https://github.com/dantp-ai/AlphaEx)** — *Distributed experiment orchestration*
+
+Python tooling for launching parameter sweeps and coordinating thousands of Slurm jobs across research compute clusters. Designed to make large-scale experimentation easier to configure, execute, and reproduce.
+
+## More Projects
 
 ### Reinforcement Learning & Robotics
-- [gym-puddle](https://github.com/dantp-ai/gym-puddle): Off-policy PAC algorithm implemented on the Puddle World Gymnasium environment using [TorchRL](https://github.com/pytorch/rl)
-- [proprio](https://github.com/dantp-ai/proprio): Unsupervised, uncertainty-aware perception for a 7-DOF robot arm; classifies each lidar reading as self, background, or anomaly, without any geometry or kinematics.
-- [STOMP paper reimplementation](https://github.com/dantp-ai/reward-respecting-subtasks-jax): Implementation in Jax of STOMP paper
 
-### Scientific ML
+- **[proprio](https://github.com/dantp-ai/proprio)** — Unsupervised, uncertainty-aware perception for a 7-DOF robotic arm. Classifies lidar readings as self, background, or anomalies without relying on explicit robot geometry or kinematics.
+- **[gym-puddle](https://github.com/dantp-ai/gym-puddle)** — Gymnasium Puddle World environment with an example off-policy reinforcement learning agent implemented using [TorchRL](https://github.com/pytorch/rl).
+- **[STOMP paper reimplementation](https://github.com/dantp-ai/reward-respecting-subtasks-jax)** — JAX implementation exploring reward-respecting subtasks and state construction.
 
-- [orbscreen](https://github.com/dantp-ai/orbscreen): Deep-ensemble GNN surrogate that reproduces Orb-v3's relaxed-state MOF stability from the unrelaxed structure - beating a descriptor baseline (energy MAE halved, ~6–7x top-10% enrichment) with calibrated uncertainty, trained at scale on [Modal](https://modal.com/) over Orbital's [Orb-v3](https://huggingface.co/papers/2504.06231) + [MofasaDB](https://huggingface.co/datasets/Orbital-Materials/MofasaDB).
+### AI Evaluation & Applications
 
-### Applied AI
+- **[medical-jiwer](https://github.com/dantp-ai/medical-jiwer)** — Medical speech-recognition evaluation built on JiWER, including medical-term WER, entity F1, and occurrence-aware scoring for doses, negation, and other clinically important values.
+- **[BetterNǎo](https://github.com/dantp-ai/neurohackathon2026)** — Hackathon prototype exploring EEG foundation-model embeddings for wellness monitoring, with a React Native interface for viewing signals and annotations.
+- **[priori](https://github.com/dantp-ai/priori)** — [Interactive benchmark](https://dantp-ai.github.io/priori/) comparing tabular foundation models (TabPFN v2 and Google TabFM) against tuned XGBoost and AutoGluon on churn and credit datasets.
 
-- [betternao](https://github.com/dantp-ai/neurohackathon2026): Live EEG monitoring for elderly care: a clinical foundation model converts 30-second signal chunks into a wellness signal + labelable embedding map, shared between patient and care team, all in a React Neative app. Co-developed at the Eurohackathon 2026.
+### Systems & Technical Explorations
 
-### Tooling
+- **[internals](https://dantp-ai.github.io/internals/)** — Interactive, first-principles explanations of modern AI systems, including a [visual walkthrough of speculative decoding](https://dantp-ai.github.io/internals/speculative-decoding/).
+- **[nabla](https://github.com/dantp-ai/nabla)** — NumPy implementations of 15 optimization algorithms, from SGD to Muon, with animated optimization trajectories and matrix least-squares benchmarks.
+- **[map-reduce-distributed-grpc](https://github.com/dantp-ai/map-reduce-distributed-grpc)** — Distributed MapReduce implementation using gRPC, with a coordinator dispatching map and reduce tasks to worker processes.
 
-- [medical-jiwer](https://github.com/dantp-ai/medical-jiwer): Medical speech-recognition evaluation built on JiWER, with medical-term WER, entity F1, and occurrence-aware scoring of doses, negation, and other critical clinical values.
-- [AlphaEx](https://github.com/dantp-ai/AlphaEx): Sweep parameters and dispatch thousands of Slurm jobs from one Python script.
+### Other Software
 
-### Educational
+- **[cloze](https://github.com/dantp-ai/cloze)** — Self-hosted language-learning application that generates fill-in-the-blank exercises from personal sentences and schedules reviews using SM-2 spaced repetition. Built with Next.js and PostgreSQL.
 
-- [internals](https://dantp-ai.github.io/internals/): Interactive, first-principles tutorials for modern AI systems & system components.
-  - [Speculative Decoding: Interactive walkthrough of how LLMs emit several tokens per forward pass.](https://dantp-ai.github.io/internals/speculative-decoding/)
-- [nabla](https://github.com/dantp-ai/nabla): Educational numpy implementations of 15 optimizers (SGD → Muon), animated on a 2D saddle & benchmarked on matrix LS.
-- [priori](https://github.com/dantp-ai/priori): [Interactive](https://dantp-ai.github.io/priori/) marimo benchmark of TabPFN v2 & Google TabFM — a tabular foundation model that predicts in-context, with no training — against tuned XGBoost & AutoGluon on churn and credit tables.
-- [minitorch](https://github.com/dantp-ai/minitorch): Minimalistic deep learning framework rebuilt from scratch: autodiff, tensors & a neural-net stack across NumPy, Numba-parallel CPU, & CUDA backends.
-- [kairos](https://github.com/dantp-ai/kairos): Reinforcement learning when the environment won't wait: a bounded-compute PPO agent acts on a stale policy while each update computes, dropping the experience it's too busy to process — testing whether extra compute is better spent on more epochs or more fresh data.
-- [map-reduce-distributed-grpc](https://github.com/dantp-ai/map-reduce-distributed-grpc): MapReduce (a distributed system) from scratch: a gRPC driver hands map & reduce tasks to a pool of workers counting words across files.
-- [cloze](https://github.com/dantp-ai/cloze): Learn a language from your own sentences: mask words, practice filling them in, each scheduled with SM-2 (spaced-repetition). Self-hosted, Next.js + Postgres.
+## Technical Writing
 
-
-## Latest Blog Posts
-
-- [Review on the Technical Report: Gemini Robotics 1.5](https://therewardsignal.substack.com/p/review-of-the-technical-report-on-gemini-robotics-1-5)
+- [Review of the Gemini Robotics 1.5 Technical Report](https://therewardsignal.substack.com/p/review-of-the-technical-report-on-gemini-robotics-1-5)
